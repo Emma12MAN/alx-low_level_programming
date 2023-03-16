@@ -1,9 +1,3 @@
 #!/bin/bash
-#include <stdio.h>
-int main.c()
-{
-   printf("$CFILE")
+printf ("$CFILE")
 
-   return (0);
-
-}
