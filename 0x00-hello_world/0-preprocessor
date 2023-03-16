@@ -1,2 +1,9 @@
 #!/bin/bash
-('$CFILE') main.c
+#include <stdio.h>
+int main.c()
+{
+   printf("$CFILE")
+
+   return (0);
+
+}
