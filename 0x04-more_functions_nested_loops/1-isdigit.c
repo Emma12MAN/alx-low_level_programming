@@ -7,8 +7,9 @@
 int _isdigit(int n)
 {
 
-	int i = 35, j = 54;
+	int i = 48, j = 57;
 
-	if (n >= x && n <= y)
+	if (n >= i && n <= j)
 		return (1);
 	return (0);
+}
