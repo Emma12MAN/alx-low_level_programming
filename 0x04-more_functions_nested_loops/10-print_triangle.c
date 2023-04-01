@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * print_square - prints hashes squares.
- * @size: size of the square.
- *
+ * print_triangle - prints a triangle.
+ * @n: numbers of lines.
  * Return: no return.
  */
-void print_square(int size)
+void print_triangle(int n)
 {
 	int i, j;
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < size; j++)
-		{
+		for (j = 1; j < (n - i); j++)
+			_putchar(' ');
+		for (j--; j < n; j++)
 			_putchar(35);
-		}
-		if (i != size - 1)
+		if (i < (n - 1))
 			_putchar('\n');
 	}
 	_putchar('\n');
