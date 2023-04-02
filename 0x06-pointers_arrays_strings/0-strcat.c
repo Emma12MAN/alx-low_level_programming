@@ -1,12 +1,11 @@
 #include "main.h"
 /**
- * _strncat - function that concatenates two strings.
- i* @dest: first arg
- * @src: second arg
- * @n: number of char to be copied
- * Return: return val dest
-*/
-char *_strncat(char *dest, char *src, int n)
+ * _strcat - function that concate two string
+ * @dest: first arg of type char
+ * @src: second arg of type char
+ * Return: string.
+ */
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
@@ -17,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		i++;
 	}
-	while (j < n && src[j] != '\0')
+	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
 		i++;
